@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "xi4nyu's blog"
+email: 
+description: > 
+  I am a programmer, Focus on Linux/Python and others.
+baseurl: ""
+url: ""
+github_username:  xi4nyu
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+harmony:
+  name: Harmony
+  # Little description about your site
+  description: Harmony is free responsive jekyll theme.
+  # 'meta_description:' Write an awesome description for your new site here.
+  # It will appear in your document head meta (for Google search results) and 
+  # in your feed.xml site description.
+  meta_description: > # 
+   Harmony is a free responsive jekyll theme by Gayan Virajith
+   and Maheshika Lakmali. Sourced on Github - 
+   https://github.com/gayanvirajith/harmony
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
+
+
+github:
+  title: xi4nyu
+  url: https://github.com/xi4nyu
