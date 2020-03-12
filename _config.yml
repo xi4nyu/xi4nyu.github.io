@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "xi4nyu's blog"
-email: 
+email: xi4nyu@yahoo.com
 description: > 
   I am a programmer, Focus on Linux/Python and others.
 baseurl: ""
@@ -28,20 +28,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-
-harmony:
-  name: Harmony
-  # Little description about your site
-  description: Harmony is free responsive jekyll theme.
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  meta_description: > # 
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Sourced on Github - 
-   https://github.com/gayanvirajith/harmony
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
 
 # Sass conversion configs
 sass:
