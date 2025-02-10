@@ -1,7 +1,8 @@
 ---
 layout: default
-title: xi4nyu'blog
+title: cc's blog
 ---
+
 <div id="home" class="page-content wc-container">
 	<div class="posts">
   		{% for post in site.posts limit:10 %}

@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "xi4nyu's blog"
+title: "cc's blog"
 email: xi4nyu@yahoo.com
-description: > 
+description: >
   I am a programmer, Focus on Linux/Python and others.
 baseurl: ""
 url: ""
-github_username:  xi4nyu
+github_username: xi4nyu
 
 # Build settings
 markdown: kramdown
@@ -31,9 +31,8 @@ exclude:
 
 # Sass conversion configs
 sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
-
+  sass_dir: assets/css/_sass
+  style: :compressed
 
 github:
   title: xi4nyu
