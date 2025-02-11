@@ -1,0 +1,18 @@
+<% if (page.current > 2){ %>
+	<span class="different-posts different-posts_earlier">📖 <a href="/page/<%= page.current - 1 %>">更早</a> 📖</span>
+<% } else if (page.current === 2) { %>
+	<span class="different-posts different-posts_earlier">📖 <a href="/">更早</a> 📖</span>
+<% } %>
+
+<% page.posts.each(function(post) { %>
+
+	<%- partial('post', {page: post, archive: true}) %>
+
+<% }) %>
+
+<% if (page.total > page.current){ %>
+	<span class="different-posts">📖 <a href="/page/<%= page.current + 1 %>">更多文章</a> 📖</span>
+<% } %>
+<% if(page.current === page.total) { %>
+	<span class="different-posts">📕 没有更多了 ... 📕</span>
+<% } %>

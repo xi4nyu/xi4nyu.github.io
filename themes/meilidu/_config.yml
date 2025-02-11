@@ -1,0 +1,21 @@
+menu:
+ 首页: /
+ 文章: /archives
+ 标签: /tags
+ 关于: /about
+
+widgets:
+ - greeting
+ - site_links
+
+
+readMore: 更多...
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
+tag_generator:
+  per_page: 10
