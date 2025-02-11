@@ -19,3 +19,7 @@ feed:
 
 tag_generator:
   per_page: 10
+
+mermaid:
+  enable: true
+  theme: dark

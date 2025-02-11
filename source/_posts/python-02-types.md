@@ -1,5 +1,5 @@
 ---
-title: Python 系列1：基本类型
+title: Python 系列2：基本类型
 date: 2020-02-28 14:52:01
 tags:
     - python
