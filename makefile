@@ -1,4 +1,8 @@
 run:
-	jekyll serve
+	hexo server --draft
+
+clean:
+	hexo clean
 
 .PHONY: run
+
