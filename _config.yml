@@ -106,3 +106,13 @@ deploy:
   repo: https://github.com/xi4nyu/xi4nyu.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+mathjax:
+  tags: none
+  signle_dollars: true
+  cjk_width: 0.9
+  normal_width: 0.6
+  append_css: true
+  every_page: false
+  packages:
+  extension_options: {}
