@@ -1,7 +1,7 @@
 <% if (page.current > 2){ %>
-	<span class="different-posts different-posts_earlier">📖 <a href="/page/<%= page.current - 1 %>">更早</a> 📖</span>
+	<span class="different-posts different-posts_earlier">📖 <a href="/page/<%= page.current - 1 %>">更新</a> 📖</span>
 <% } else if (page.current === 2) { %>
-	<span class="different-posts different-posts_earlier">📖 <a href="/">更早</a> 📖</span>
+	<span class="different-posts different-posts_earlier">📖 <a href="/">更新</a> 📖</span>
 <% } %>
 
 <% page.posts.each(function(post) { %>
