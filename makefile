@@ -1,11 +1,11 @@
 run:
-	hexo server --draft
+	npx hexo server --draft
 
 clean:
-	hexo clean
+	npx hexo clean
 
 publish:
-	hexo publish
+	npx hexo publish
 
 .PHONY: run
 
