@@ -1,0 +1,90 @@
+# Header
+nav:
+  # Home: /index
+  posts:
+    path: ./archives
+    icon: mingcute:inbox-fill
+    text: Posts
+  # publications:
+  #   path: ./publications
+  #   icon: mingcute:science-fill
+  #   text: Publications
+  # Projects: /projects
+  about:
+    path: ./about
+    icon: mingcute:user-info-fill
+    text: About
+  categories:
+    path: ./categories
+    icon: mingcute:classify-2-fill
+    text: Categories
+  tags:
+    path: ./tags
+    icon: mingcute:tag-fill
+    text: Tags
+  home:
+    path: ./index
+    icon: mingcute:home-2-fill
+
+  # To add a new page, use hexo new page, then add another entry below.
+  # Each entry MUST have a path. In addition, it will render icon and/or text
+  # if they are provided. It will be an empty button if none of these are
+  # provided.
+
+email: # 留空或填入你的邮箱
+my_location: # 留空或填入你的位置
+cv_path: # /pdf/cv.pdf
+cv_last_update_date: # Aug, 2024
+show_featured_posts: false
+year_align_center: false
+
+# favicon
+favicon: /favicon.ico
+
+# logo
+portrait: /images/logo.svg  # Your profile image here
+show_profile_image: true
+
+# links
+links:
+  Github:
+    link: https://github.com/xi4nyu
+    icon: mingcute:github-fill
+  # ZhiHu:
+  #   link: https://www.zhihu.com/people/xxx
+  #   icon: ri:zhihu-line
+  # Twitter:
+  #   link: https://www.twitter.com/xxx
+  #   icon: mingcute:social-x-fill
+  # You can add more links below using the format above.
+
+# analytics
+google_analytics:
+baidu_analytics:
+
+# mathjax
+fancybox: true
+
+# mathjax
+mathjax: true
+
+# echarts
+echarts: true
+
+# busuanzi
+busuanzi: false
+
+# mermaid
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
+
+# giscus
+giscus:
+  enable:
+  repo:
+  repo_id:
+  category:
+  category_id:
+  mapping:
